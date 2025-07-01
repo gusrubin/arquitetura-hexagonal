@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Página-1" id="JX8rJXF7wh8J5So9Frel">
-    <mxGraphModel dx="707" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wPOvhjdf6TnlWsHhpMO7-3" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="56.3" y="240" width="200" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="a4TKVZqR3TsQB03q37aO-2" value="karaoke-manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="520" width="180" height="60" as="geometry" />
         </mxCell>
@@ -88,8 +91,23 @@
             <mxPoint x="859" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XcKDZMyEyWDjwfEUV3Ic-2" value="Gateway" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+        <mxCell id="XcKDZMyEyWDjwfEUV3Ic-2" value="Gateway" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" parent="1" vertex="1">
           <mxGeometry x="470" y="210" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPOvhjdf6TnlWsHhpMO7-1" value="karaoke-stage-device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66.3" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wPOvhjdf6TnlWsHhpMO7-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.arduino;fillColor=#36868D;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="122.6" y="250" width="67.4" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="wPOvhjdf6TnlWsHhpMO7-5" value="Load Offline" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wPOvhjdf6TnlWsHhpMO7-1" target="wPOvhjdf6TnlWsHhpMO7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="210" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPOvhjdf6TnlWsHhpMO7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.408;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wPOvhjdf6TnlWsHhpMO7-2" target="a4TKVZqR3TsQB03q37aO-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
